@@ -14,7 +14,7 @@ if(isset($_POST['submit'])){
     //echo $query;
     execute($link,$query);
     if(mysqli_affected_rows($link)==1){
-        skip('father_module.php','ok',"恭喜你，添加成功");
+        skip('son_module.php','ok',"恭喜你，添加成功");
     }
 }
 ?>
