@@ -45,5 +45,6 @@ if(isset($_POST['submit'])){
 
 </table>
 <input style="cursor: pointer" class="btn" type="submit" name="submit" value="修改" />
+</form>
 </div>
 <?php include 'inc/footer.inc.php'?>

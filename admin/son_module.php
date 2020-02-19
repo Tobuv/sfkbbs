@@ -36,7 +36,7 @@ $html=<<<STAR
                 <td>{$data['smn']}[id:{$data['id']}]</td>
                 <td>{$data['fmn']}</td>
                 <td>{$data['member_id']}</td>
-                <td><a href="#">[访问]</a>&nbsp;&nbsp;<a href="father_module_update.php?id={$data['id']}">[编辑]</a>&nbsp;&nbsp;<a href={$delete_url}>[删除]</a></td>
+                <td><a href="#">[访问]</a>&nbsp;&nbsp;<a href="son_module_update.php?id={$data['id']}">[编辑]</a>&nbsp;&nbsp;<a href={$delete_url}>[删除]</a></td>
             </tr>
 STAR;
             echo $html;
