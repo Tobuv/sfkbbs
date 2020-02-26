@@ -20,5 +20,4 @@ $result=execute($link,$query);
 if(mysqli_num_rows($result)){
     skip('register.php','error','用户名已存在');
 }
-
 ?>
